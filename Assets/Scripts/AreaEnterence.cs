@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AreaEnterence : MonoBehaviour {
-
+public class AreaEnterence : MonoBehaviour 
+{
     public string transitionName;
 
     // Use this for initialization
