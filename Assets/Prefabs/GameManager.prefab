@@ -1,0 +1,494 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1273948836604868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4700962093092186}
+  - component: {fileID: 114117330705821814}
+  m_Layer: 0
+  m_Name: Player2 Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4700962093092186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273948836604868}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.2709928, y: -0.24302673, z: 0.07324219}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4025910455732258}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114117330705821814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273948836604868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 183b1e628bc204f26a8a77540b1a6c17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Seymour
+  playerLevel: 1
+  currentEXP: 0
+  expToNextLevel: 
+  maxLevel: 250
+  baseEXP: 1000
+  currentHP: 110
+  maxHP: 110
+  currentMP: 12
+  maxMP: 12
+  mpLvlBonus: 0100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  strength: 12
+  defence: 10
+  wpnPwr: 0
+  armrPwr: 0
+  equippedWpn: 
+  equippedArmr: 
+  charImage: {fileID: 21300000, guid: 99a108e7171f94eb8932c4489a660328, type: 3}
+--- !u!1 &1403013029400046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4025910455732258}
+  - component: {fileID: 114804221710074982}
+  - component: {fileID: 114376738596719472}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4025910455732258
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403013029400046}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.52351505, y: 2.150505, z: 0.107421875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4754353173898138}
+  - {fileID: 4700962093092186}
+  - {fileID: 4689405051009984}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114804221710074982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403013029400046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39f337d59a011429c8cfceda9a400ab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameMenuOpen: 0
+  dialogActive: 0
+  fadingBetweenAreas: 0
+  shopActive: 0
+  battleActive: 0
+  saveMenuOpen: 0
+  playerStats:
+  - {fileID: 114005475130261296}
+  - {fileID: 114117330705821814}
+  - {fileID: 114321114293580744}
+  itemsHeld:
+  - Apple
+  - Candy
+  - Cookie
+  - Red Potion
+  - Green Potion
+  - Spatula
+  - Frying Pan
+  - A3 Paper
+  - Large Cloth
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  numberOfItems: 03000000020000000100000002000000010000000200000001000000020000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  referenceItems:
+  - {fileID: 114669651660829964, guid: 90d1813bd412b4094ad859478104ad7b, type: 3}
+  - {fileID: 114669651660829964, guid: f19b0b38bd6f741dcace3ad990db4901, type: 3}
+  - {fileID: 114669651660829964, guid: abf56fbaf1bad4815895b8f2d0614a16, type: 3}
+  - {fileID: 114669651660829964, guid: daab12b5d6fb1496cbc9840b9ce39610, type: 3}
+  - {fileID: 114669651660829964, guid: 7199f06c1a692458c8cd2c04478ce959, type: 3}
+  - {fileID: 2753, guid: d8edab7d478414914842a4aea73102e8, type: 3}
+  - {fileID: 114669651660829964, guid: 51d9149a8144e4bdbaf1bc7921018026, type: 3}
+  - {fileID: 114669651660829964, guid: 75f42386cbe8d4e228139e3bbaca25e6, type: 3}
+  - {fileID: 114669651660829964, guid: d34bebbb5982a4c37a8b161b1baea65a, type: 3}
+  - {fileID: 114669651660829964, guid: c3d57bb3a7cf04e389a999f8a7c6203b, type: 3}
+  - {fileID: 114669651660829964, guid: 4d8920f221c2f487589f5722b8a0e94a, type: 3}
+  - {fileID: 2752, guid: aa27747e54d6a430c84632f580d3ecce, type: 3}
+  - {fileID: 114669651660829964, guid: ba8eba00df0234c3a990d82ddfd2d0e2, type: 3}
+  - {fileID: 114669651660829964, guid: 2f143fed577cf436bbb0f2f2bce89df8, type: 3}
+  - {fileID: 114669651660829964, guid: d0b7cd851832b4749b9a8e260f497485, type: 3}
+  - {fileID: 114460032566831432, guid: 5f3e8d21c3dd146c7bedb1fda7d6bb51, type: 3}
+  - {fileID: 114460032566831432, guid: 494167c54560e45e7a40af9ce473d8fd, type: 3}
+  - {fileID: 114460032566831432, guid: ddb6e005661304d97866acefe5359296, type: 3}
+  - {fileID: 114460032566831432, guid: a3759c34122034bb796b8c59dcfe7396, type: 3}
+  - {fileID: 114460032566831432, guid: 37ea37479e5ac4196afaee124b20144f, type: 3}
+  - {fileID: 114460032566831432, guid: 56fb608d00f2a48abb4989d5ae10ab99, type: 3}
+  - {fileID: 114094134936449820, guid: c3ce79aeb8f9d4ab19971e963c4f425b, type: 3}
+  - {fileID: 114094134936449820, guid: 6fff0f8f87db444aba77eff85233e76a, type: 3}
+  - {fileID: 114094134936449820, guid: 36ad9b3e17499443a8ec2daa41ae394b, type: 3}
+  - {fileID: 114094134936449820, guid: 567559f96a36b4099be60c58182dfa9f, type: 3}
+  - {fileID: 114277701483518114, guid: e26c808db53cb45a8b6820f9987738a7, type: 3}
+  - {fileID: 114277701483518114, guid: e4afa0e9bd138457586b1d2872bedd3f, type: 3}
+  - {fileID: 114277701483518114, guid: cc12e4b2a4da04053a0622eea6ecd945, type: 3}
+  - {fileID: 114277701483518114, guid: d343de9a091884b47afcbdaab64a0460, type: 3}
+  - {fileID: 3078, guid: 5c98d62c553e8477e80c626ca9c4e428, type: 3}
+  - {fileID: 114277701483518114, guid: c9fc879dbc55c4c0b87e3d46db667cad, type: 3}
+  - {fileID: 114277701483518114, guid: 606de56572d3b4b6f99079fc4d5460b5, type: 3}
+  - {fileID: 114277701483518114, guid: 5defd606eb131418a897ac25a4842de5, type: 3}
+  - {fileID: 114277701483518114, guid: 4e6f9e9e6f3814430b259803f8487882, type: 3}
+  - {fileID: 114277701483518114, guid: 148b40ba8aa94418e9481f745e2c2953, type: 3}
+  - {fileID: 2722, guid: af06a681c87b042bd8d041363d069ca8, type: 3}
+  - {fileID: 2774, guid: 2a376a693679e4e8884232ed1c5ff943, type: 3}
+  - {fileID: 114277701483518114, guid: e3a7ebe5bb0c84371b2b537a2ccf5f9a, type: 3}
+  - {fileID: 2721, guid: a49f5263da71c4341ba4a8b1d96dea50, type: 3}
+  - {fileID: 114277701483518114, guid: 300df3fb0adf74e76bca485ef6541902, type: 3}
+  currentGold: 250
+--- !u!114 &114376738596719472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403013029400046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d851f4245504aeebf160a289fdedbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questMarkerNames:
+  - 
+  - Castle1 - activate trapdoor
+  - Dungeon1 - talk to mage first time
+  - Dungeon2 - buttonPush1
+  - Dungeon3 - toggleSwitch1
+  - Dungeon3 - toggleSwitch2
+  - Dungeon4 - talk to mage second time
+  - Dungeon4 - take gold
+  - Dungeon5 - fight worm
+  - Dungeon6 - fight worm 1
+  - Dungeon6 - fight worm 2
+  - Dungeon7 - fight worm
+  - Dungeon7 - pickup apple
+  - Dungeon9 - toggle switch1
+  - Dungeon9 - push crate on button
+  - Dungeon9 - toggle switch2
+  - Dungeon11 - toggle switch 1 first time
+  - Dungeon11 - toggle switch 2
+  - Dungeon11 - toggle switch 1 second time
+  - Dungeon11 - push box on button
+  - Dungeon12 - fight worm 1
+  - Dungeon12 - fight worm 2
+  - Dungeon12 - fight worm 3
+  - Dungeon13 - push box on button 1
+  - Dungeon13 - toggle switch 1
+  - Dungeon13 - toggle switch 2
+  - Dungeon13 - push box on button 2
+  - Dungeon15 - talk to thusnot
+  - Dungeon15 - fight thusnot
+  - Dungeon17 - talk to mage
+  - Dungeon18 - toggle switch
+  - Dungeon17 - toggle switch
+  - Dungeon19 - fight spider
+  - Dungeon19 - toggle switch 1
+  - Dungeon20 - push box on crate
+  - Dungeon19 - toggle switch 2
+  - Dungeon21 - push box on crate
+  - Dungeon19 - toggle switch 3
+  - Dungeon22 - fight spider
+  - Dungeon22 - toggle switch 1
+  - Dungeon22 - toggle switch 2
+  - Dungeon22 - toggle switch 3
+  - Dungeon22 - toggle switch 4
+  - Dungeon23 - push crate on button 1
+  - Dungeon23 - push crate on button 2
+  - Dungeon23 - fight worm 1
+  - Dungeon23 - fight spider
+  - Dungeon24 - toggle switch
+  - Dungeon24 - fight worm
+  - Dungeon25 - push crate on button
+  - Dungeon26 - toggle switch
+  - Dungeon36 - fight worm
+  - Dungeon37 - toggle switch
+  - Dungeon38 - toggle switch 1
+  - Dungeon39 - toggle switch 1
+  - Dungeon40 - toggle switch 1
+  - Dungeon41 - toggle switch 1
+  - Dungeon37 - push crate on button 1
+  - Dungeon38 - toggle switch 2
+  - Dungeon39 - toggle switch 2
+  - Dungeon40 - toggle switch 2
+  - Dungeon41 - toggle switch 2
+  - Dungeon37 - push crate on button 2
+  - Dungeon43 - talk to kerzert 1
+  - Dungeon43 - talk to kerzert 2
+  - Dungeon43 - fight kerzert
+  - Dungeon47 - pickup candy
+  - Dungeon48 - toggle switch 1
+  - Dungeon48 - toggle switch 2
+  - Dungeon48 - toggle switch 3
+  - Dungeon48 - toggle switch 4
+  - Dungeon48 - toggle switch 5
+  - Dungeon48 - toggle switch 6
+  - Dungeon49 - push crate on button 1
+  - Dungeon48 - toggle switch 7
+  - Dungeon48 - toggle switch 8
+  - Dungeon48 - toggle switch 9
+  - Dungeon49 - push crate on button 2
+  - Dungeon50 - push crate on button
+  - Dungeon50 - collect gem 1
+  - Dungeon50 - collect gem 2
+  - Dungeon50 - collect gem 3
+  - Dungeon50 - collect gem 4
+  - Dungeon50 - collect gem 5
+  - Dungeon51 - collect gem 1
+  - Dungeon51 - collect gem 2
+  - Dungeon51 - collect gem 3
+  - Dungeon51 - collect gem 4
+  - Dungeon51 - collect gem 5
+  - Dungeon51 - collect gem 6
+  - Dungeon51 - collect gem 7
+  - Dungeon51 - collect gem 8
+  - Dungeon51 - collect gem 9
+  - Dungeon51 - collect gem 10
+  - Dungeon50 - toggle switch
+  - Dungeon54 - fight rat 1
+  - Dungeon54 - fight rat 2
+  - Dungeon57 - collect key 1
+  - Dungeon59 - fight rat
+  - Dungeon59 - fight spider 1
+  - Dungeon59 - fight spider 2
+  - Dungeon60 - toggle switch 1
+  - Dungeon60 - toggle switch 2
+  - Dungeon59 - collect key 2
+  - Dungeon61 - toggle switch 1
+  - Dungeon61 - toggle switch 2
+  - Dungeon61 - collect key 3
+  - Dungeon56 - take hammer
+  - Dungeon62 - fight minotaur
+  - Dungeon62- collect key 1
+  - Dungeon62- collect key 2
+  - Dungeon62- collect key 3
+  - Dungeon65 - toggle switch 1
+  - Dungeon65 - toggle switch 2
+  - Dungeon65 - toggle switch 3
+  - Dungeon65 - toggle switch 4
+  - Dungeon65 - toggle switch 5
+  - Dungeon65 - toggle switch 6
+  - Dungeon65 - collect key 1
+  - Dungeon66 - toggle switch
+  - Dungeon67 - take shard 1
+  - Dungeon65 - collect gem 1
+  - Dungeon65 - collect gem 2
+  - Dungeon65 - collect gem 3
+  - Dungeon65 - collect gem 4
+  - Dungeon65 - collect gem 5
+  - Dungeon65 - collect gem 6
+  - Dungeon66 - collect gem 7
+  - Dungeon65 - collect key 2
+  - Dungeon65 - take shard 2
+  - Dungeon69  - fight rat
+  - Dungeon70 - toggle switch 1
+  - Dungeon71 - push crate on button
+  - Dungeon70 - toggle switch 2
+  - Dungeon70 - toggle switch 3
+  - Dungeon68 - take shard 3
+  - Dungeon68 - collect key 3
+  - Dungeon72 - toggle switch 1
+  - Dungeon72 - toggle switch 2
+  - Dungeon65 - collect gem 2-1
+  - Dungeon65 - collect gem 2-2
+  - Dungeon65 - collect gem 2-3
+  - Dungeon65 - collect gem 2-4
+  - Dungeon65 - collect gem 2-5
+  - Dungeon65 - collect gem 2-6
+  - Dungeon66 - toggle switch 2
+  - Dungeon65 - collect gem 2-7
+  - Dungeon72 - collect key 4
+  - Dungeon72 - take shard 4
+  - Dungeon64 - take crystal key
+  - Dungeon73 - toggle switch
+  - Dungeon75 - talk to shadow entity
+  - Dungeon75 - fight fake shadow entity
+  - Dungeon75 - talk to shadow entity 2
+  questMarkersComplete: 
+--- !u!1 &1496055066498612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4689405051009984}
+  - component: {fileID: 114321114293580744}
+  m_Layer: 0
+  m_Name: Player3 Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4689405051009984
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496055066498612}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.2709928, y: -0.24302673, z: 0.07324219}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4025910455732258}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114321114293580744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496055066498612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 183b1e628bc204f26a8a77540b1a6c17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Blaze
+  playerLevel: 1
+  currentEXP: 0
+  expToNextLevel: 
+  maxLevel: 250
+  baseEXP: 1000
+  currentHP: 140
+  maxHP: 140
+  currentMP: 7
+  maxMP: 7
+  mpLvlBonus: 0100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  strength: 10
+  defence: 12
+  wpnPwr: 0
+  armrPwr: 0
+  equippedWpn: 
+  equippedArmr: 
+  charImage: {fileID: 21300000, guid: 4dcc75aecf6d44277add6dbfaed2504c, type: 3}
+--- !u!1 &1656943464892484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4754353173898138}
+  - component: {fileID: 114005475130261296}
+  m_Layer: 0
+  m_Name: Player1 Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4754353173898138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656943464892484}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.2709928, y: -0.24302673, z: 0.07324219}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4025910455732258}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114005475130261296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656943464892484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 183b1e628bc204f26a8a77540b1a6c17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Skyler
+  playerLevel: 1
+  currentEXP: 0
+  expToNextLevel: 
+  maxLevel: 250
+  baseEXP: 1000
+  currentHP: 120
+  maxHP: 120
+  currentMP: 5
+  maxMP: 5
+  mpLvlBonus: 0100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000000000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  strength: 12
+  defence: 11
+  wpnPwr: 0
+  armrPwr: 0
+  equippedWpn: 
+  equippedArmr: 
+  charImage: {fileID: 21300000, guid: 095da87181e5241d8a0f21cb3d3c865b, type: 3}

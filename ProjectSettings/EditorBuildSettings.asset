@@ -1,0 +1,263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: d49aa1e3a0cfa4b4c9f47c007bc7761c
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 26ac326f4f7d84b77847f300ff3646c5
+  - enabled: 1
+    path: Assets/Scenes/Castle/Castle1.unity
+    guid: b1dfbd8a9e6fc45afbebe43c5083e43c
+  - enabled: 1
+    path: Assets/Scenes/Castle/Castle2.unity
+    guid: c9a85c1c543834ebd9ba4f948e2814d9
+  - enabled: 1
+    path: Assets/Scenes/Castle/Castle3.unity
+    guid: 870493615cf744b308b72ca9362cbc78
+  - enabled: 1
+    path: Assets/Scenes/Castle/Castle4.unity
+    guid: 1d8b9d6cad6da483091fc3791496db3d
+  - enabled: 1
+    path: Assets/Scenes/Castle/Castle5.unity
+    guid: 87dfab68f7c3d49e583e0527c245666e
+  - enabled: 1
+    path: Assets/Scenes/Castle/Castle6.unity
+    guid: 69742b477f21a4f94b449e2ab0f05199
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon1.unity
+    guid: 8c305550679a94c5fa958bb59c26a4b9
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon2.unity
+    guid: c81b7069a206e465892f8de2b068b245
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon3.unity
+    guid: 4a7709eb963554a7c96e540c35ba543f
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon4.unity
+    guid: de160734fb06042c7b890723dcf580fd
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon5.unity
+    guid: 6e123f44219614206bdc69072f258b09
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon6.unity
+    guid: 5b77c7dcc07554268955113505c2004c
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon7.unity
+    guid: 0f148b0e114e9481692a0430e34cb47e
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon8.unity
+    guid: 50670ee7aefe7405987a4242943d9174
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon9.unity
+    guid: 28600712e0b934f49809b4794c0c315f
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon10.unity
+    guid: c426ae739b4a3490995a7bde41c5f8e9
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon11.unity
+    guid: b08c132ef4cf24a51a33fe4e5d314a6f
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon12.unity
+    guid: c57f6803f4aab40daafbaee4c7d78d87
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon13.unity
+    guid: b21de04c4357d47e9b5a4613c9a3682d
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon14.unity
+    guid: 6143216b1c2d7409bbff207da98e2e01
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon15.unity
+    guid: c4e83c59b957c4ba3ab19824b5dd293f
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon16.unity
+    guid: de600421e11194a06b72126c0ab2c795
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon17.unity
+    guid: 9fa6c0d1d6ccd4f3daee292a947f5c96
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon18.unity
+    guid: 20b5691b9778748a5a444308416569d8
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon19.unity
+    guid: 3e171d5c420b3444dad2067a995823ab
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon20.unity
+    guid: 47c6de680fb9a48a39f2439cb197243e
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon21.unity
+    guid: b5703d25fb6de4e17b12799906ecc3d8
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon22.unity
+    guid: abdb433ef0f5a40f2b13a4bc7bf6c775
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon23.unity
+    guid: f5318eb502af3471fbe682ea00138ebb
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon24.unity
+    guid: 38b1029dce9164a3a8ddda0449032215
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon25.unity
+    guid: fe159be2719784a87b4026e08657212b
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon26.unity
+    guid: 3bfc580389d484143b498fc98eb8e3d8
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon27.unity
+    guid: 3560385a434ab4b40a46b5034ef25d7a
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon28.unity
+    guid: 74b34ac0c14e647e586f06558dca2f51
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon29.unity
+    guid: 27efa30a2668545ca8cfd7f2f16113bb
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon30.unity
+    guid: 77f3c29bc1cc540e480d97d61eb2d2e2
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon31.unity
+    guid: 202b02602dc584961b740b077e707498
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon32.unity
+    guid: a9c98df4d1b594924b067ec15671dbaf
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon33.unity
+    guid: f75e90775988c4f93884cdfb6033bc5d
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon34.unity
+    guid: 6c18e279445c446f6b20dbb6cc474016
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon35.unity
+    guid: 8a2799194f98a45d1813f26dcc899bb6
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon36.unity
+    guid: ef9e9ba05a3004dfda9ccf06890f23ee
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon37.unity
+    guid: dc29c1fcfad614c1bb47989f152b1b22
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon38.unity
+    guid: 74d5ba5207c2c40cfb481754c434be33
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon39.unity
+    guid: c41487c6b85794414bca40ddbf0587f7
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon40.unity
+    guid: 244213c7e5bb541868aaf813f9585d9f
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon41.unity
+    guid: b310fbf78f353459baec07a3f3e39e8a
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon42.unity
+    guid: 0de8db505f7674b15ab8845c7b522a90
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon43.unity
+    guid: 4b5f429e975564381b1a03fc1e352df0
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon44.unity
+    guid: 0efbe560932a34ddfa0119f3629a3d91
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon45.unity
+    guid: d53235f9fa40247a9baef56cfb7809cf
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon46.unity
+    guid: bf08592dcf1864bf3b95ed4426a8534c
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon47.unity
+    guid: 2030451f9e9fd4410a7c2895a194eedc
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon48.unity
+    guid: 2ecdba74b082a43adb5766f33eab1dd2
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon49.unity
+    guid: c3440318c14b142fbbd5f9088a1dc908
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon50.unity
+    guid: 34dbe22f486c7478c9e953fac938f394
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon51.unity
+    guid: d8f450e333b204c519ab0fbad085d6ef
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon52.unity
+    guid: 59f36c7a9473f49e7b92606d3807359a
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon53.unity
+    guid: da972bb7c4af44186bc47b6159011304
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon54.unity
+    guid: 603a9bd33fd9f479a9127f2cc0e3e518
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon55.unity
+    guid: df0b14da628bf4ac78ee1c249f0f864c
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon56.unity
+    guid: 7fd8cc3d8172a4d20a60c7c621cd6141
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon57.unity
+    guid: a929aaa7f8a5c4e0f9e7b57c99477428
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon58.unity
+    guid: b4dfd727276194999b7a22d4c235fd0a
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon59.unity
+    guid: 85a779441d33844f1b95cbaa5a9ccc83
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon60.unity
+    guid: 5e9b7560aeaaa446797d2965ba92c8f2
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon61.unity
+    guid: f79eeb1274de84d7faed1a6d9a759066
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon62.unity
+    guid: cfc34889cf91a4d04bd0fad7d0c263cf
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon63.unity
+    guid: fb4577d62807e4d6caec68a9bbeba7cf
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon64.unity
+    guid: f3ba49c685b26492f82459c4cb65ec92
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon65.unity
+    guid: a6f2b5077655e45f4a43e621735d660d
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon66.unity
+    guid: ae31dfcb7d02e413895018901f02e938
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon67.unity
+    guid: d18c363dbaa3a43d2aa4256333a50602
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon68.unity
+    guid: a03509996822f42828a2ba499de6e35c
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon69.unity
+    guid: c207b2d8cfa3a42e395c7d820c7c69eb
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon70.unity
+    guid: 80b2e3d3045444c1dbe46d69653543cd
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon71.unity
+    guid: c25992cc77e854729bb8c35c026d6d0a
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon72.unity
+    guid: 4386d8ace73164bf4b3f70a79a0cc2db
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon73.unity
+    guid: f1cebafe2805a4563a7e3266e41ebdaf
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon74.unity
+    guid: ddadd9258a3ee467192989862d37af70
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon75.unity
+    guid: 0f59d63b0e61942cd96b052704a93aa7
+  - enabled: 1
+    path: Assets/Scenes/Dungeon/Dungeon76.unity
+    guid: 8c482ce288cae4af98deff47ff470d0d
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: a5f37cdd37dae46a4942cd8cb9f8067b
+  m_configObjects: {}

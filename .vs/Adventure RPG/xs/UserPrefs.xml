@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{33922C98-F6CC-3175-9A79-DEB643901A9F}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AreaEnterence.cs">
+    <Files>
+      <File FileName="Assets/Scripts/BattleChar.cs" Line="33" Column="14" />
+      <File FileName="Assets/Scripts/AttackEffect.cs" Line="17" Column="25" />
+      <File FileName="Assets/Scripts/BattleMove.cs" Line="5" Column="21" />
+      <File FileName="Assets/Scripts/DestroyOverLifetime.cs" Line="16" Column="40" />
+      <File FileName="Assets/Scripts/DamageNumber.cs" Line="29" Column="104" />
+      <File FileName="Assets/Scripts/BattleTargetButton.cs" Line="24" Column="77" />
+      <File FileName="Assets/Scripts/BattleMagicSelect.cs" Line="35" Column="64" />
+      <File FileName="Assets/Scripts/BattleNotification.cs" Line="25" Column="46" />
+      <File FileName="Assets/Scripts/ItemButton.cs" Line="44" Column="10" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="6" Column="14" />
+      <File FileName="Assets/Scripts/GameMenu.cs" Line="44" Column="43" />
+      <File FileName="Assets/Scripts/GameOver.cs" Line="14" Column="9" />
+      <File FileName="Assets/Scripts/EssentialsLoader.cs" Line="11" Column="23" />
+      <File FileName="Assets/Scripts/AreaEnterence.cs" Line="18" Column="1" />
+      <File FileName="Assets/Scripts/BattleReward.cs" Line="68" Column="67" />
+      <File FileName="Assets/Scripts/BattleType.cs" Line="13" Column="1" />
+      <File FileName="Assets/Scripts/BattleManager.cs" Line="285" Column="9" />
+      <File FileName="Assets/Scripts/BattleStarter.cs" Line="80" Column="40" />
+      <File FileName="Assets/Scripts/DialogActivator.cs" Line="24" Column="49" />
+      <File FileName="Assets/Scripts/ShopKeeper.cs" Line="19" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
